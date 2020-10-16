@@ -1,1 +1,4 @@
-console.log('Im alive')
+//import greet
+import { greet } from './greet.js';
+
+console.log(greet);
