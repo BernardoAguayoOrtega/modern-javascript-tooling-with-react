@@ -1,4 +1,4 @@
-//import greet
-import { greet } from './greet.js';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-console.log(greet);
+ReactDOM.render(<h1>Im the app</h1>, document.getElementById('app'));
