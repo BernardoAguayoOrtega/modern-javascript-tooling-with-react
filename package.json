@@ -24,6 +24,9 @@
   },
   "homepage": "https://github.com/BernardoAguayoOrtega/modern-javascript-tooling-with-react#readme",
   "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
     "webpack": "^4.44.2",
     "webpack-cli": "^4.0.0"
   }
