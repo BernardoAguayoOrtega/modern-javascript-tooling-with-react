@@ -2,6 +2,12 @@ const path = require('path');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
+const cssRules = {
+	test: /\.css$/,
+	use: ['style-loader', 'css-loader'],
+	exclude: /node_modules/
+}
+
 const babelRules = {
 	test: /\.js$/,
 	loader: 'babel-loader',
@@ -18,7 +24,7 @@ module.exports = {
 		filename: 'app.bundle.js',
 	},
 	module: {
-		rules: [babelRules],
+		rules: [babelRules, cssRules],
 	},
 	plugins: [new HtmlWebpackPlugin({
     template: './src/index.html'
