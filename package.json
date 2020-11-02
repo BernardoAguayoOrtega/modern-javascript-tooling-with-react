@@ -4,7 +4,7 @@
   "description": "Project to learn moder js tools to work with react.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "webpack --config ./webpack.config.prod.js",
     "dev": "webpack-dev-server --open --config ./webpack.config.dev.js"
   },
@@ -31,6 +31,7 @@
     "babel-loader": "^8.1.0",
     "css-loader": "^5.0.0",
     "html-webpack-plugin": "^4.5.0",
+    "jest": "^26.6.2",
     "style-loader": "^2.0.0",
     "webpack": "^4.44.2",
     "webpack-bundle-analyzer": "^3.9.0",
