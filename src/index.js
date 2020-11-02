@@ -1,7 +1,9 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import './styles.css'
+import './styles.css';
 
-debugger
-ReactDOM.render(<h1>Im the app hey!!!!!!</h1>, document.getElementById('app'));
+const App = () => <h1>I'm the app</h1>;
+
+debugger;
+ReactDOM.render(<App />, document.getElementById('app'));
